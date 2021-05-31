@@ -43,6 +43,9 @@
         <content_attribute id="money-purchasing">intense</content_attribute>
     </content_rating>
     <releases>
+        <release version="v0.2.0-hooking4" date="2021-05-31">
+            <description>New hooking api, top secret</description>
+        </release>
         <release version="v0.2.1" date="2021-05-03">
             <description>
                 <p>Disable use .apk from launcher login</p>
