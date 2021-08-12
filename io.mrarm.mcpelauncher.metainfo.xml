@@ -43,6 +43,12 @@
         <content_attribute id="money-purchasing">intense</content_attribute>
     </content_rating>
     <releases>
+        <release version="v0.2.5" date="2021-08-12">
+            <description>
+                <p>Hotfix: old x86_64 devices got not purchased error for launcher latest, issues appeard on Tuesday 10.8 with the unsupported message of the next MC update</p>
+                <p>Due to heavy abuse of this launchers sourcecode for piracy, further updates to GPL Launcher code are at risk</p>
+            </description>
+        </release>
         <release version="v0.2.3" date="2021-07-04">
             <description>
                 <p>Use this very unstable launcher at your own risk, backup your worlds including realms.You may be banned by featured servers.</p>
