@@ -126,7 +126,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-versiondb.git",
-                    "commit": "96319e20a23c5e48aa3a2898fe5eda728f94eebc"
+                    "commit": "e5681bd71790e4be1c1aaeee33f13c6c3f478b81"
                 }
             ]
         },
@@ -153,17 +153,17 @@
                     "-DLAUNCHER_VERSIONDB_PATH=/app/share/versiondb",
                     "-DLAUNCHER_ENABLE_GOOGLE_PLAY_LICENCE_CHECK=ON",
                     "-DLAUNCHER_DISABLE_DEV_MODE=ON",
-                    "-DLAUNCHER_VERSION_NAME=v0.3.0",
-                    "-DLAUNCHER_VERSION_CODE=32",
-                    "-DLAUNCHER_CHANGE_LOG=<p>Anti piracy update, starting 1.17.40+ currently requires an internet connection</p><p>I forget what exactly I have changed during the last months</p>",
-                    "-DLAUNCHER_VERSIONDB_URL=https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/v0.3.0"
+                    "-DLAUNCHER_VERSION_NAME=v0.3.1",
+                    "-DLAUNCHER_VERSION_CODE=34",
+                    "-DLAUNCHER_CHANGE_LOG=<p>Remove proprietary Extensions</p>",
+                    "-DLAUNCHER_VERSIONDB_URL=https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/v0.2.0"
                 ]
             },
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-ui-manifest.git",
-                    "commit": "8cba5f30206d79573dfcf9c6d9e79b946f49227c"
+                    "commit": "a031759602a15eebe55e81bfa1801d00cff64fa5"
                 }
             ]
         },
@@ -215,7 +215,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-manifest.git",
-                    "commit": "50fd0e2d92f872178eb37e78390d5cb72749ac61"
+                    "commit": "e810a396266710ee10214d2c2509fcaa93831222"
                 },
                 {
                     "type": "git",
