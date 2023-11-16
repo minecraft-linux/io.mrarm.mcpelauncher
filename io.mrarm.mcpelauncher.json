@@ -100,7 +100,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-versiondb.git",
-                    "commit": "aff20197970a3d35f1fc495d087bd224616edcf4"
+                    "commit": "2ab66cc1cc6034c3b88792926b4373d92f368ee6"
                 }
             ]
         },
@@ -128,9 +128,9 @@
                     "-DLAUNCHER_ENABLE_GOOGLE_PLAY_LICENCE_CHECK=ON",
                     "-DLAUNCHER_DISABLE_DEV_MODE=OFF",
                     "-DFETCHCONTENT_SOURCE_DIR_GLFW3_EXT=glfw3_ext",
-                    "-DLAUNCHER_VERSION_NAME=v0.12.0",
-                    "-DLAUNCHER_VERSION_CODE=72",
-                    "-DLAUNCHER_CHANGE_LOG=<p>forked glfw/glfw of flatpak to add a workaround for common nvidia x11 driver issues (ChristopherHX)</p><p>Fix fake AAsset loader to work with 1.20.50.21 (ChristopherHX)</p><p>AInputQueue mouse input for breaking changes in 1.20.50.22 (GameParrot)</p>",
+                    "-DLAUNCHER_VERSION_NAME=v0.12.1",
+                    "-DLAUNCHER_VERSION_CODE=73",
+                    "-DLAUNCHER_CHANGE_LOG=<p>Fix fake AAsset loader to work with 1.20.50.21 (ChristopherHX)</p><p>AInputQueue mouse input for breaking changes in 1.20.50.22 (GameParrot)</p><p>Build bookworm based AppImages (ChristopherHX)</p><p>Fix xbox live ssl problems in arm64 debs (ChristopherHX)</p>",
                     "-DLAUNCHER_VERSIONDB_URL=https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/v0.12.x"
                 ]
             },
@@ -144,7 +144,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/glfw",
-                    "commit": "562d100f9ad3a3667bb0944afb974bb7af6f0d8c",
+                    "commit": "fce9121962bc0a21c39e2d6f8e08bad30c566c72",
                     "dest": "glfw3_ext"
                 }
             ]
@@ -200,19 +200,19 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-manifest.git",
-                    "commit": "3a464db4ebcdeef9f8548a06169108ef89c012a5",
+                    "commit": "2184b0c90c44560490573e57878179af4e7ed2c3",
                     "disable-shallow-clone": true
                 },
                 {
                     "type": "git",
                     "url": "https://github.com/gabomdq/SDL_GameControllerDB",
-                    "commit": "eb831f75abb5c796fb2f2843c3e055d2b8cba29b",
+                    "commit": "721b575d3053b21d6d30419bf74afb5b1d0fa7a4",
                     "dest": "gamecontrollerdb"
                 },
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/glfw",
-                    "commit": "562d100f9ad3a3667bb0944afb974bb7af6f0d8c",
+                    "commit": "fce9121962bc0a21c39e2d6f8e08bad30c566c72",
                     "dest": "glfw3_ext"
                 },
                 {
