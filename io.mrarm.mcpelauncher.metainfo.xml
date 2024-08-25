@@ -54,6 +54,12 @@
         <content_attribute id="money-purchasing">intense</content_attribute>
     </content_rating>
     <releases>
+        <release version="v1.0.1" date="2024-08-25">
+            <description>
+                <p>Moved wiki to minecraft-linux.github.io</p>
+                <p>Fix audio when -fes is disabled like on macOS</p>
+            </description>
+        </release>
         <release version="v1.0.0" date="2024-08-18">
             <description>
                 <p>Removed (proprietary) fmod binaries, using the fmod for android instead bundled with the game</p>
