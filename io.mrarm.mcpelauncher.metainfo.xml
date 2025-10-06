@@ -54,6 +54,11 @@
         <content_attribute id="money-purchasing">intense</content_attribute>
     </content_rating>
     <releases>
+        <release version="v1.5.0" date="2025-10-06">
+            <description>
+                <p>1.21.111 minimal compatibility</p>
+            </description>
+        </release>
         <release version="v1.4.3" date="2025-10-05">
             <description>
                 <p>Fix problems with Google Login</p>
