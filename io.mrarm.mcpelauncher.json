@@ -162,9 +162,9 @@
                     "-DLAUNCHER_DISABLE_DEV_MODE=ON",
                     "-DFETCHCONTENT_SOURCE_DIR_GLFW3_EXT=glfw3_ext",
                     "-DLAUNCHER_FLATPAK_CONFIG_URL=https://github.com/flathub/io.mrarm.mcpelauncher/raw/refs/heads/master/io.mrarm.mcpelauncher.json",
-                    "-DLAUNCHER_VERSION_NAME=v1.5.1",
-                    "-DLAUNCHER_VERSION_CODE=96",
-                    "-DLAUNCHER_CHANGE_LOG=<p>Fixed new multiplayer problems on macOS / crash when someone else opens Minecraft in the local network of 1.21.40 - 1.21.60.21.</p><p>The game runs now on limited fps when V-Sync is broken (when it is enabled), now capped between 80-110fps before it where greater than 2000</p><p>Disabled Fullscreen support of Menubar and f11 shortcut due to causing more bugs than being useful, use the green button and hide the menubar</p>",
+                    "-DLAUNCHER_VERSION_NAME=v1.5.3",
+                    "-DLAUNCHER_VERSION_CODE=97",
+                    "-DLAUNCHER_CHANGE_LOG=<p>Sync Translations from weblate</p><p>Fix release workflow to remove v from deb/rpm versions</p>",
                     "-DLAUNCHER_VERSIONDB_URL=https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/v1.5.x"
                 ]
             },
@@ -172,7 +172,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-ui-manifest.git",
-                    "commit": "0482d681ab848c04b492c96731152e131cb23384",
+                    "commit": "62907277ba492de2ff0eb4418b393e6b3e5a0883",
                     "disable-shallow-clone": true
                 },
                 {
@@ -233,7 +233,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-manifest.git",
-                    "commit": "0e78bf8dc9b2f9645074498035f57bf83f439179",
+                    "commit": "33625125a6671342c7d9c420521865e675d610fa",
                     "disable-shallow-clone": true
                 },
                 {
