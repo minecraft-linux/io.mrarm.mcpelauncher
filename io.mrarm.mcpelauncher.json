@@ -160,9 +160,9 @@
                     "-DFETCHCONTENT_SOURCE_DIR_GLFW3_EXT=glfw3_ext",
                     "-DLAUNCHER_FLATPAK_CONFIG_URL=https://github.com/flathub/io.mrarm.mcpelauncher/raw/refs/heads/master/io.mrarm.mcpelauncher.json",
                     "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
-                    "-DLAUNCHER_VERSION_NAME=v1.8.5",
-                    "-DLAUNCHER_VERSION_CODE=119",
-                    "-DLAUNCHER_CHANGE_LOG=<p>Fix Minecraft 26.60 not launching, possible last minor android version supported until you need the msstore license</p>",
+                    "-DLAUNCHER_VERSION_NAME=v1.8.7",
+                    "-DLAUNCHER_VERSION_CODE=121",
+                    "-DLAUNCHER_CHANGE_LOG=<p>Fix Minecraft 26.60 not launching, possible last minor android version supported until you need the msstore license</p><p>Remove mapping of resolve due to compat issues with old linux attempt 2</p>",
                     "-DLAUNCHER_VERSIONDB_URL=https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/v1.5.x"
                 ]
             },
@@ -211,7 +211,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/minecraft-linux/mcpelauncher-manifest.git",
-                    "commit": "2e2ec0acc25070de486fe898df7298db888cad8c",
+                    "commit": "794188c6a4908225820cbc99ba6cb788df9d236f",
                     "disable-shallow-clone": true
                 },
                 {
